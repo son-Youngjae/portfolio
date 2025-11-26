@@ -10,7 +10,7 @@ const Header = memo(function Header() {
             <Code2 className="text-blue-600" size={28} />
             <span className="text-xl font-bold text-gray-900">Portfolio</span>
           </div>
-          <nav className="hidden md:flex gap-6">
+          {/* <nav className="hidden md:flex gap-6">
             <a href="#about" className="text-gray-700 hover:text-blue-600 transition font-medium">
               About
             </a>
@@ -23,7 +23,7 @@ const Header = memo(function Header() {
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition font-medium">
               Contact
             </a>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </header>
